@@ -90,12 +90,12 @@ ENV/
 env.bak/
 venv.bak/
 data/output/
-data/input/*bak
-data/input/*ori
+data/input/*.json_bak
+data/input/*json_ori
 log/
 
 # Spyder project settings
-.spyderproject
+.spyderprojectbak
 .spyproject
 
 # Rope project settings
