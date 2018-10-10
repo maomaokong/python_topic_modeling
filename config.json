@@ -1,0 +1,19 @@
+{
+  "APP_NAME":"TopicModeling",
+  "VERSION":"0.1.0",
+  "ENV":"UAT",
+  "PATHS":{
+    "SOURCE_CODE":"src",
+    "DATA":"data",
+    "DATA_INPUT":"input",
+    "DATA_OUTPUT":"output",
+    "LOG":"log",
+    "TESTING":"test"
+  },
+  "SETTINGS":{
+    "DUMMY":"DUAL"
+  },
+  "INPUT":{
+    "NEWSGROUP":"newsgroups.json"
+  }
+}
