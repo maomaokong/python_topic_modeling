@@ -3,7 +3,7 @@ Topic Modeling is a technique to extract the hidden topics from large volumes of
 Latent Dirichlet Allocation(LDA) is a popular algorithm for topic modeling with excellent implementations in the Python’s Gensim package.
 
 # Objective
-Try to pull data using Twitch API and export the result to CSV by using pandas library.
+Implementing Topic Modeling using Python with Gensim library
 
 # Prerequisites
 Download "nltk" stopwords and "spacy" model
