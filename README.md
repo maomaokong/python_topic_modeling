@@ -43,6 +43,9 @@ Python 3.7.0
 01. Gensim
 02. NumPy
 
+# Others
+1. [Code Beautify](https://codebeautify.org/jsonvalidator)
+
 # Reference
 1. [Gensim Installation](https://radimrehurek.com/gensim/install.html)
 2. [Gensim Tutorial](https://radimrehurek.com/gensim/tutorial.html)
