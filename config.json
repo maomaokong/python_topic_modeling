@@ -1,7 +1,9 @@
 {
   "APP_NAME":"TopicModeling",
   "VERSION":"0.1.0",
-  "ENV":"UAT",
+  "ENV_REMARK":"UAT environment only will run minimal data from JSON, PROD environment will loading full data from JSON.",
+  "ENV_OPTION":"1-UAT; 9-PROD",
+  "ENV":"9",
   "PATHS":{
     "SOURCE_CODE":"src",
     "DATA":"data",
@@ -14,6 +16,6 @@
     "DUMMY":"DUAL"
   },
   "INPUT":{
-    "NEWSGROUP":"newsgroups.json"
+    "NEWSGROUPS":"newsgroups.json"
   }
 }

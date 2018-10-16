@@ -15,7 +15,7 @@ class Config:
 
         APP_NAME = config['APP_NAME']
         VERSION = config['VERSION']
-        ENV = config['ENV']
+        ENV = int(config['ENV'])
 
         PATH_SRC = config['PATHS']['SOURCE_CODE']
         PATH_DATA = config['PATHS']['DATA']
@@ -24,4 +24,12 @@ class Config:
         PATH_LOG = config['PATHS']['LOG']
         PATH_TESTING = config['PATHS']['TESTING']
 
-        INPUT_NEWSGROUPS = config['INPUT']['NEWSGROUP']
+        INPUT_NEWSGROUPS = config['INPUT']['NEWSGROUPS']
+
+
+class Environment:
+    """
+    Environment Values
+    """
+    UAT = 1
+    PROD = 9
