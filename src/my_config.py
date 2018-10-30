@@ -6,9 +6,9 @@ class Config:
     """
     Read default configurations from setting file
     """
-    PARENT_PATH = os.path.dirname(os.getcwd())
+    PATH_PARENT = os.path.dirname(os.getcwd())
 
-    config_file = PARENT_PATH + '/config.json'
+    config_file = "{0}/config.json".format(PATH_PARENT)
 
     with open(config_file) as cf:
         config = json.load(cf)
@@ -24,7 +24,13 @@ class Config:
         PATH_LOG = config['PATHS']['LOG']
         PATH_TESTING = config['PATHS']['TESTING']
 
+        PATH_MALLET = config['SETTINGS']['MALLET_PATH']
+
         INPUT_NEWSGROUPS = config['INPUT']['NEWSGROUPS']
+
+        OUTPUT_DOCUMENT_DOMINANT_TOPIC = config['OUTPUT']['DOCUMENT_DOMINANT_TOPIC']
+        OUTPUT_TOPIC_REPRESENTATIVE_DOCUMENT = config['OUTPUT']['TOPIC_REPRESENTATIVE_DOCUMENT']
+        OUTPUT_TOPIC_VOLUME_DISTRIBUTION = config['OUTPUT']['TOPIC_VOLUME_DISTRIBUTION']
 
 
 class Environment:

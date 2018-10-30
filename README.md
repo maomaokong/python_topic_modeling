@@ -30,6 +30,11 @@ $ pip install gensim --user
 $ pip install pyLDAvis --user
 ```
 
+5. Download Mallet file for better quality of topics LDA algorithm. Unzip it and provide the path to gensim.models.wrappers.LdaMallet.
+```
+(http://mallet.cs.umass.edu/download.php)
+```
+
 # Input Data
 We will be using the NewsGroups dataset, and this newsgroup.json contains about 11k newsgroups post from multiple different topics.
 

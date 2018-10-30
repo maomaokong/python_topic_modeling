@@ -3,7 +3,7 @@
   "VERSION":"0.1.0",
   "ENV_REMARK":"UAT environment only will run minimal data from JSON, PROD environment will loading full data from JSON.",
   "ENV_OPTION":"1-UAT; 9-PROD",
-  "ENV":"9",
+  "ENV":"1",
   "PATHS":{
     "SOURCE_CODE":"src",
     "DATA":"data",
@@ -13,9 +13,15 @@
     "TESTING":"test"
   },
   "SETTINGS":{
-    "DUMMY":"DUAL"
+    "MALLET_PATH_REMARK":"Download the Mallet file from http://mallet.cs.umass.edu/download.php",
+    "MALLET_PATH":"/home/maomaohiong/Documents/Dev/TopicModeling/venv/share/mallet-2.0.8/bin/mallet"
   },
   "INPUT":{
     "NEWSGROUPS":"newsgroups.json"
+  },
+  "OUTPUT":{
+    "DOCUMENT_DOMINANT_TOPIC":"Document_Dominant_Topic.csv",
+    "TOPIC_REPRESENTATIVE_DOCUMENT":"Topic_Representative_Document.csv",
+    "TOPIC_VOLUME_DISTRIBUTION":"Topic_Volume_Distribution.csv"
   }
 }
